@@ -8,15 +8,17 @@ function counter(count) {
     }
 }
 
-function fizzBuzz(counter) {
-    if( count % 3 === 0 && count % 5 === 0) {
+function fizzBuzz(number) {
+    if( number % 3 === 0 && number % 5 === 0) {
         console.log("FIZZBUZZ");
-    } else if(count % 3 === 0) {
+    } else if(number % 3 === 0) {
             console.log("Fizz");
-        } else if(count % 5 === 0) {
+        } else if(number % 5 === 0) {
                 console.log("Buzz");
             }
             else {
-                console.log(counter);
+                console.log(number);
             }
         }
+
+fizzBuzz(counter)
